@@ -409,11 +409,6 @@
 <contactref element="LED5" pad="A"/>
 <wire x1="17.3" y1="33.5" x2="14.1" y2="33.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
-<contactref element="LED5" pad="C"/>
-<contactref element="LED6" pad="A"/>
-<wire x1="12.3" y1="33.5" x2="9.1" y2="33.5" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$5">
 <contactref element="LED7" pad="C"/>
 <contactref element="LED8" pad="A"/>
@@ -429,11 +424,6 @@
 <contactref element="LED11" pad="A"/>
 <wire x1="17.3" y1="17.5" x2="14.1" y2="17.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$8">
-<contactref element="LED11" pad="C"/>
-<contactref element="LED12" pad="A"/>
-<wire x1="12.3" y1="17.5" x2="9.1" y2="17.5" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$9">
 <contactref element="LED13" pad="C"/>
 <contactref element="LED14" pad="A"/>
@@ -448,11 +438,6 @@
 <contactref element="LED16" pad="C"/>
 <contactref element="LED17" pad="A"/>
 <wire x1="17.3" y1="1.5" x2="14.1" y2="1.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="LED17" pad="C"/>
-<contactref element="LED18" pad="A"/>
-<wire x1="12.3" y1="1.5" x2="9.1" y2="1.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="LED22" pad="C"/>

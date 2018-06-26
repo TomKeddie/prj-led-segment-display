@@ -483,21 +483,21 @@
 <instance part="LED1" gate="LED" x="12.7" y="109.22"/>
 <instance part="LED2" gate="LED" x="12.7" y="101.6"/>
 <instance part="LED3" gate="LED" x="12.7" y="93.98"/>
-<instance part="LED4" gate="LED" x="22.86" y="116.84" rot="R90"/>
-<instance part="LED5" gate="LED" x="30.48" y="116.84" rot="R90"/>
-<instance part="LED6" gate="LED" x="38.1" y="116.84" rot="R90"/>
+<instance part="LED4" gate="LED" x="15.24" y="116.84" rot="R90"/>
+<instance part="LED5" gate="LED" x="22.86" y="116.84" rot="R90"/>
+<instance part="LED6" gate="LED" x="43.18" y="116.84" rot="R90"/>
 <instance part="LED7" gate="LED" x="53.34" y="109.22"/>
 <instance part="LED8" gate="LED" x="53.34" y="101.6"/>
 <instance part="LED9" gate="LED" x="53.34" y="93.98"/>
-<instance part="LED10" gate="LED" x="22.86" y="83.82" rot="R90"/>
-<instance part="LED11" gate="LED" x="30.48" y="83.82" rot="R90"/>
-<instance part="LED12" gate="LED" x="38.1" y="83.82" rot="R90"/>
+<instance part="LED10" gate="LED" x="15.24" y="83.82" rot="R90"/>
+<instance part="LED11" gate="LED" x="22.86" y="83.82" rot="R90"/>
+<instance part="LED12" gate="LED" x="43.18" y="83.82" rot="R90"/>
 <instance part="LED13" gate="LED" x="12.7" y="76.2"/>
 <instance part="LED14" gate="LED" x="12.7" y="68.58"/>
 <instance part="LED15" gate="LED" x="12.7" y="60.96"/>
-<instance part="LED16" gate="LED" x="22.86" y="48.26" rot="R90"/>
-<instance part="LED17" gate="LED" x="30.48" y="48.26" rot="R90"/>
-<instance part="LED18" gate="LED" x="38.1" y="48.26" rot="R90"/>
+<instance part="LED16" gate="LED" x="15.24" y="48.26" rot="R90"/>
+<instance part="LED17" gate="LED" x="22.86" y="48.26" rot="R90"/>
+<instance part="LED18" gate="LED" x="43.18" y="48.26" rot="R90"/>
 <instance part="LED22" gate="LED" x="33.02" y="109.22"/>
 <instance part="LED23" gate="LED" x="33.02" y="101.6"/>
 <instance part="LED24" gate="LED" x="33.02" y="93.98"/>
@@ -519,9 +519,9 @@
 <instance part="LED37" gate="LED" x="22.86" y="93.98"/>
 <instance part="LED38" gate="LED" x="43.18" y="93.98"/>
 <instance part="LED39" gate="LED" x="43.18" y="60.96"/>
-<instance part="LED40" gate="LED" x="45.72" y="116.84" rot="R90"/>
-<instance part="LED41" gate="LED" x="45.72" y="83.82" rot="R90"/>
-<instance part="LED42" gate="LED" x="45.72" y="48.26" rot="R90"/>
+<instance part="LED40" gate="LED" x="50.8" y="116.84" rot="R90"/>
+<instance part="LED41" gate="LED" x="50.8" y="83.82" rot="R90"/>
+<instance part="LED42" gate="LED" x="50.8" y="48.26" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -544,12 +544,6 @@
 <pinref part="LED5" gate="LED" pin="A"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="LED5" gate="LED" pin="C"/>
-<pinref part="LED6" gate="LED" pin="A"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="LED7" gate="LED" pin="C"/>
@@ -568,12 +562,6 @@
 <pinref part="LED11" gate="LED" pin="A"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="LED11" gate="LED" pin="C"/>
-<pinref part="LED12" gate="LED" pin="A"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED13" gate="LED" pin="C"/>
@@ -590,12 +578,6 @@
 <segment>
 <pinref part="LED16" gate="LED" pin="C"/>
 <pinref part="LED17" gate="LED" pin="A"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="LED17" gate="LED" pin="C"/>
-<pinref part="LED18" gate="LED" pin="A"/>
 </segment>
 </net>
 <net name="N$15" class="0">
