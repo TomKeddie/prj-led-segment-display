@@ -165,6 +165,9 @@
 <hole x="5.5" y="3.5" drill="3.2"/>
 <hole x="12.5" y="3.5" drill="3.2"/>
 <text x="16.5" y="5" size="1.778" layer="26" font="vector" ratio="12" rot="MR90" align="center">V1.0</text>
+<text x="6" y="24" size="1.27" layer="26" font="vector" rot="MR180" align="center">+12</text>
+<text x="6" y="19" size="1.27" layer="26" font="vector" rot="MR180" align="center">GND</text>
+<text x="6" y="21.5" size="1.27" layer="26" font="vector" rot="MR180" align="center">PWM</text>
 </plain>
 <libraries>
 <library name="semiconductors">
