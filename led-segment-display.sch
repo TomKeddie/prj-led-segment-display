@@ -307,8 +307,8 @@
 </polygon>
 </package>
 <package name="LED-3014">
-<smd name="C" x="-0.7" y="0" dx="1" dy="1.8" layer="1" rot="R90"/>
-<smd name="A" x="1.1" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<smd name="C" x="-0.9" y="0" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="A" x="1.3" y="0" dx="1" dy="1.4" layer="1" rot="R90"/>
 <text x="0" y="-1.27" size="1.27" layer="27" font="vector" align="center">&gt;NAME</text>
 </package>
 </packages>
