@@ -168,6 +168,7 @@
 <text x="6" y="25" size="1.27" layer="26" font="vector" rot="MR180" align="center">+12</text>
 <text x="6" y="20" size="1.27" layer="26" font="vector" rot="MR180" align="center">GND</text>
 <text x="6" y="22.5" size="1.27" layer="26" font="vector" rot="MR180" align="center">PWM</text>
+<text x="5.625" y="29.625" size="1.27" layer="1" font="vector" ratio="20" align="center">TOP</text>
 </plain>
 <libraries>
 <library name="semiconductors">
@@ -775,7 +776,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="16" y1="27" x2="16" y2="26" width="0.4064" layer="1"/>
 <wire x1="8.625" y1="1.5" x2="8" y2="2" width="0.4064" layer="1"/>
 <wire x1="8" y1="1.05" x2="8" y2="14.5" width="0.4064" layer="1"/>
-<wire x1="8.05" y1="31" x2="7.6" y2="29.1" width="0.4064" layer="1"/>
 <wire x1="14.2" y1="31" x2="13.125" y2="31" width="0.3048" layer="16"/>
 <wire x1="13.125" y1="31" x2="10.125" y2="28" width="0.3048" layer="16"/>
 <wire x1="10.125" y1="28" x2="10.125" y2="27.5" width="0.3048" layer="16"/>
@@ -923,7 +923,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="10.25" y1="29.5" x2="10.25" y2="29.25" width="0.4064" layer="16"/>
 <via x="10.25" y="29.25" extent="1-16" drill="0.5" shape="octagon"/>
 <wire x1="10.25" y1="29.25" x2="10.25" y2="29.45" width="0.4064" layer="1"/>
-<wire x1="10.25" y1="29.45" x2="10.35" y2="31" width="0.4064" layer="1"/>
 <wire x1="10.75" y1="3.25" x2="10.125" y2="3.25" width="0.6096" layer="16"/>
 <wire x1="10.125" y1="3.25" x2="7.75" y2="3.25" width="0.4064" layer="16"/>
 <wire x1="7.75" y1="3.25" x2="5.5" y2="1" width="0.4064" layer="16"/>
@@ -963,6 +962,8 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="2.125" y1="4.67155" x2="2.605465625" y2="3.691084375" width="0.8128" layer="1"/>
 <wire x1="1" y1="18.35" x2="1" y2="18" width="0.4064" layer="1"/>
 <wire x1="1" y1="18" x2="1.875" y2="17.125" width="0.4064" layer="1"/>
+<wire x1="10.25" y1="29.45" x2="10.25" y2="30.9" width="0.4064" layer="1"/>
+<wire x1="10.25" y1="30.9" x2="10.35" y2="31" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="2"/>
